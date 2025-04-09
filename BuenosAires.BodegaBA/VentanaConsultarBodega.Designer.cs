@@ -85,6 +85,7 @@ namespace BuenosAires.BodegaBA
             this.gridProductos.Name = "gridProductos";
             this.gridProductos.Size = new System.Drawing.Size(776, 259);
             this.gridProductos.TabIndex = 4;
+            this.gridProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridProductos_CellContentClick);
             // 
             // ID_PRODUCTO
             // 

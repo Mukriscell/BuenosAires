@@ -34,5 +34,10 @@ namespace BuenosAires.BodegaBA
             ventanaMenu.Show();
             this.Hide();
         }
+
+        private void gridProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
