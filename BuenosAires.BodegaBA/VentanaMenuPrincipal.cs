@@ -31,5 +31,19 @@ namespace BuenosAires.BodegaBA
         {
 
         }
+
+        private void btnConsultarProductosEnBodega_Click(object sender, EventArgs e)
+        {
+            VentanaConsultarBodega ventanaConsultar = new VentanaConsultarBodega();
+            ventanaConsultar.Show();
+            this.Hide();
+        }
+
+        private void btnAdministrarGD_Click(object sender, EventArgs e)
+        {
+            VentanaGuiaDespacho ventanaGD = new VentanaGuiaDespacho();
+            ventanaGD.Show();
+            this.Hide();
+        }
     }
 }

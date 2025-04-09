@@ -55,6 +55,7 @@
             this.btnConsultarProductosEnBodega.TabIndex = 2;
             this.btnConsultarProductosEnBodega.Text = "Consultar productos en bodega";
             this.btnConsultarProductosEnBodega.UseVisualStyleBackColor = true;
+            this.btnConsultarProductosEnBodega.Click += new System.EventHandler(this.btnConsultarProductosEnBodega_Click);
             // 
             // btnAdministrarGD
             // 
@@ -64,6 +65,7 @@
             this.btnAdministrarGD.TabIndex = 3;
             this.btnAdministrarGD.Text = "Administrar guias de despacho";
             this.btnAdministrarGD.UseVisualStyleBackColor = true;
+            this.btnAdministrarGD.Click += new System.EventHandler(this.btnAdministrarGD_Click);
             // 
             // btnReservarAnwo
             // 
