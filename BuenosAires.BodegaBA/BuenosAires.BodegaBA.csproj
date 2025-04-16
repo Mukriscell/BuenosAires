@@ -78,6 +78,12 @@
     <Compile Include="VentanaProductos.Designer.cs">
       <DependentUpon>VentanaProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaReservarAnwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaReservarAnwo.Designer.cs">
+      <DependentUpon>VentanaReservarAnwo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaProductos.resx">
       <DependentUpon>VentanaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaReservarAnwo.resx">
+      <DependentUpon>VentanaReservarAnwo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

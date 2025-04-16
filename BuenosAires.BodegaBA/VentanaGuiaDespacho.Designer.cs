@@ -1,17 +1,9 @@
-﻿
-namespace BuenosAires.BodegaBA
+﻿namespace BuenosAires.BodegaBA
 {
     partial class VentanaGuiaDespacho
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,12 +13,6 @@ namespace BuenosAires.BodegaBA
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
@@ -39,7 +25,7 @@ namespace BuenosAires.BodegaBA
             this.ESTADO_GD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NUM_FAC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NOMB_CLI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OPC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OPC = new System.Windows.Forms.DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridDespacho)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,8 +57,7 @@ namespace BuenosAires.BodegaBA
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(269, 31);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Guias de Despacho\r\n";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Text = "Guias de Despacho";
             // 
             // gridDespacho
             // 
@@ -89,7 +74,6 @@ namespace BuenosAires.BodegaBA
             this.gridDespacho.Name = "gridDespacho";
             this.gridDespacho.Size = new System.Drawing.Size(701, 258);
             this.gridDespacho.TabIndex = 3;
-            this.gridDespacho.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridDespacho_CellContent_Load);
             // 
             // btnVolverMenuPrincipal
             // 
@@ -100,37 +84,42 @@ namespace BuenosAires.BodegaBA
             this.btnVolverMenuPrincipal.TabIndex = 4;
             this.btnVolverMenuPrincipal.Text = "Volver al Menu Principal";
             this.btnVolverMenuPrincipal.UseVisualStyleBackColor = true;
-            this.btnVolverMenuPrincipal.Click += new System.EventHandler(this.btnVolverMenuPrincipal_Click);
             // 
             // NroGD
             // 
             this.NroGD.HeaderText = "Nro GD";
             this.NroGD.Name = "NroGD";
+            this.NroGD.Width = 70;
             // 
             // NOMB_PROD
             // 
             this.NOMB_PROD.HeaderText = "Producto";
             this.NOMB_PROD.Name = "NOMB_PROD";
+            this.NOMB_PROD.Width = 150;
             // 
             // ESTADO_GD
             // 
             this.ESTADO_GD.HeaderText = "Estado GD";
             this.ESTADO_GD.Name = "ESTADO_GD";
+            this.ESTADO_GD.Width = 100;
             // 
             // NUM_FAC
             // 
             this.NUM_FAC.HeaderText = "Nro Fac";
             this.NUM_FAC.Name = "NUM_FAC";
+            this.NUM_FAC.Width = 70;
             // 
             // NOMB_CLI
             // 
             this.NOMB_CLI.HeaderText = "Cliente";
             this.NOMB_CLI.Name = "NOMB_CLI";
+            this.NOMB_CLI.Width = 150;
             // 
             // OPC
             // 
             this.OPC.HeaderText = "Opciones";
             this.OPC.Name = "OPC";
+            this.OPC.Width = 200;
             // 
             // VentanaGuiaDespacho
             // 
@@ -143,14 +132,11 @@ namespace BuenosAires.BodegaBA
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "VentanaGuiaDespacho";
-            this.Text = "VentanaGuiaDespacho";
+            this.Text = "Sistema BodegaBA";
             ((System.ComponentModel.ISupportInitialize)(this.gridDespacho)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
-        #endregion
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -162,6 +148,6 @@ namespace BuenosAires.BodegaBA
         private System.Windows.Forms.DataGridViewTextBoxColumn ESTADO_GD;
         private System.Windows.Forms.DataGridViewTextBoxColumn NUM_FAC;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMB_CLI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OPC;
+        private System.Windows.Forms.DataGridViewLinkColumn OPC;
     }
 }

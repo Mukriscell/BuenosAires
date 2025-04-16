@@ -45,5 +45,18 @@ namespace BuenosAires.BodegaBA
             ventanaGD.Show();
             this.Hide();
         }
+
+        private void btnReservarAnwo_Click(object sender, EventArgs e)
+        {
+            VentanaReservarAnwo ventanaReservar = new VentanaReservarAnwo();
+            ventanaReservar.Show();
+            this.Hide();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

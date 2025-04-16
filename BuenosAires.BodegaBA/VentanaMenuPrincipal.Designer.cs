@@ -13,7 +13,7 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing && (components != null))                                   
             {
                 components.Dispose();
             }
@@ -75,6 +75,8 @@
             this.btnReservarAnwo.TabIndex = 4;
             this.btnReservarAnwo.Text = "Reservar equipos de ANWO";
             this.btnReservarAnwo.UseVisualStyleBackColor = true;
+            this.btnReservarAnwo.Click += new System.EventHandler(this.btnReservarAnwo_Click);
+
             // 
             // btnMantenedorProductos
             // 
@@ -94,6 +96,8 @@
             this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+
             // 
             // VentanaMenuPrincipal
             // 
