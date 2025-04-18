@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BodegaVistaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BodegaVistaVenta.Designer.cs">
+      <DependentUpon>BodegaVistaVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaConsultarBodega.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VentanaLoginVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaLoginVentas.Designer.cs">
+      <DependentUpon>VentanaLoginVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,9 @@
     <Compile Include="VentanaReservarAnwo.Designer.cs">
       <DependentUpon>VentanaReservarAnwo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BodegaVistaVenta.resx">
+      <DependentUpon>BodegaVistaVenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaInicio.resx">
       <DependentUpon>VentanaInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaLoginVentas.resx">
+      <DependentUpon>VentanaLoginVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaMenuPrincipal.resx">
       <DependentUpon>VentanaMenuPrincipal.cs</DependentUpon>
